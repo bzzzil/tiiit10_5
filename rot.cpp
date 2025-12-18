@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     // input array
@@ -8,16 +9,16 @@ int main() {
     int left = 0;
     int right = n - 1;
 
-    while (left < right {
+    while (left < right) {
         int tmp = arr[left];
         arr[left] = arr[right];
         arr[right] = tmp;
         left++;
-        right-;
+        right--;
     }
 
     // output
-    for (int i == 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
     cout << endl;
